@@ -1,5 +1,6 @@
 SELECT *
-FROM etl.countries_gdp;
+FROM etl.countries_gdp
+ORDER by country_gdp_id;
 
 SELECT *
 FROM etl.countries_gdp_update_log;
